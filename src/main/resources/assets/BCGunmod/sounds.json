@@ -1,10 +1,10 @@
 {
-  "item.mammoth.fire": {
+  "item.testgun.fire": {
     "subtitle": "subtitle.BCGunmod.regular_fire",
     "sounds": [
       {
         "name": "BCGunmod:item/test_fire"
       }
     ]
-  },
+  }
 }
