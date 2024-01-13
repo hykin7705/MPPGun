@@ -2,14 +2,14 @@ modLoader="javafml"
 loaderVersion="[40,)"
 license="MIT"
 [[mods]]
-modId="bluecitizen"
+modId="bcgunmod"
 version="1.18.2"
-displayName="MPProject BlueCitizen"
+displayName="MPProject BCGunMod"
 logoFile="examplemod.png"
-credits="MPProject BlueCitizen Core Mod"
+credits="MPProject BlueCitizen Gun Mod"
 authors="MPProject"
 description='''
-MPProject BlueCitizen Core Mod
+MPProject BlueCitizen Gun Mod
 '''
 
 [[dependencies.bluecitizen]]

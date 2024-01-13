@@ -17,7 +17,7 @@ import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
 @Mod(Mppgun.ID)
 public class Mppgun {
-	public static final String ID = "mppgun";
+	public static final String ID = "bcgunmod";
 	public static final CreativeModeTab GROUP = new MppgunTab(ID);
 	
 	public Mppgun() {
