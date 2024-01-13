@@ -31,6 +31,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
+            property 'mixin.env.remapRefMap', 'true'
+
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+
             mods {
                 bcgunmod {
                     source sourceSets.main
@@ -87,23 +91,16 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    mavenLocal()
     maven {
-        url "https://www.cursemaven.com"
+        url "https://cursemaven.com"
     }
-    maven {
-        name "Progwml6 maven"
-        url "https://dvs1.progwml6.com/files/maven/"
-    }
-    /*maven {
-        name "ModMaven"
-        url "https://modmaven.k-4u.nl"
-    }*/
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
+    //framework 라이브러리 종속성 추가
     implementation fg.deobf('curse.maven:framework-549225:4287475')
+    //mrcrayfishs-gun-mod 라이브러리 종속성 추가
     implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4344223')
 }
 
