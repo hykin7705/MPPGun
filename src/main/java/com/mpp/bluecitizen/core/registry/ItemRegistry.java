@@ -18,7 +18,7 @@ public class ItemRegistry {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mppgun.ID);
 	public static final Item.Properties genericProperties = new Item.Properties().stacksTo(1).tab(Mppgun.GROUP);
 	
-	public static final RegistryObject<Item> TESTGUN = registerGun("test_gun", false);
+	public static final RegistryObject<Item> TESTGUN = registerGun("testgun", false);
 	
 	private static RegistryObject<Item> registerGun(String name, boolean canColor) {
 		return ITEMS.register(name, () -> new Mppgunitem(genericProperties, canColor));

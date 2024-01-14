@@ -12,7 +12,7 @@
     "spread": 5.0
   },
   "projectile": {
-    "item": "Mppgun:bullet_heavy",
+    "item": "bcgunmod:bullet_heavy",
     "visible": false,
     "gravity": true,
     "damage": 9,
@@ -21,10 +21,10 @@
     "life": 60
   },
   "sounds": {
-    "fire": "Mppgun:item.test.fire",
+    "fire": "bcgunmod:item.test.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "Mppgun:item.rifle.suppressed"
+    "silencedFire": "bcgunmod:item.rifle.suppressed"
   },
   "display": {
     "flash": {
