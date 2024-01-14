@@ -1,9 +1,9 @@
 {
   "item.testgun.fire": {
-    "subtitle": "subtitle.BCGunmod.regular_fire",
+    "subtitle": "subtitle.bcgunmod.regular_fire",
     "sounds": [
       {
-        "name": "BCGunmod:item/test_fire"
+        "name": "bcgunmod:item/test_fire"
       }
     ]
   }

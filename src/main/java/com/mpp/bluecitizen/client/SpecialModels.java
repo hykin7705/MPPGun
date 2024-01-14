@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = Mppgun.ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public enum SpecialModels {
-	TESTGUN("guns/testgun");
+	TESTGUN("gun/testgun");
 	
 	private final ResourceLocation modelLoc;
 	private BakedModel cachedModel;
